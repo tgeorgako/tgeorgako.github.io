@@ -5,3 +5,10 @@
     The Computer Engineering & Informatics Department (CEID) of the Engineering School of the University of Patras was founded in 1979. The department’s mission is to provide education and research in the broad field of Computer Science and Engineering (CS&E), Communications and Informatics. 
   description: | # this will include new lines to allow paragraphs
     During my time at CEID I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. During my student years, I have successfully completed a number of projects while developing my skills.
+
+- layout: left
+  name: University of Patras
+  dates: 2019 - Present
+  qualification: MSc Human-Computer Interaction
+  description: | # this will include new lines to allow paragraphs
+    The objective of the Masters Program is to provide specialized theoretical and applied knowledge on concepts related to the study, design and development of interactive technologies, i.e. technologies that interact with their users, as well as the study of phenomena related to interaction of users with modern technologies.
