@@ -1,0 +1,11 @@
+- layout: left
+  name: English
+  qualification: Level C2
+  description: | # this will include new lines to allow paragraphs
+    Certificate of Proficiency in English (ECPE), University of Michigan
+
+- layout: left
+  name: French
+  qualification: Level B2
+  description: | # this will include new lines to allow paragraphs
+    DELF 1er degré (UNITES A1, A2, A3, A4)
