@@ -1,4 +1,11 @@
 - layout: left
+  company: Municipality of Kalavryta
+  job_title: IT specialist
+  dates: 2018 - Present
+  description: | # this will include new lines to allow paragraphs
+    IT support, network administration and customer support.
+
+- layout: left
   company: The Boring Company
   link: boringcompany.com
   job_title: Senior Network System Administrator
