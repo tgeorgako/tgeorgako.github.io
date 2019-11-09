@@ -1,6 +1,6 @@
 <div class="container education-container">
-  <h3>{{ site.education_title | default: "Foreign Languages" }}</h3>
-  {% for education in site.data.foreignlanguages %}
-    {% include {{ education.layout | default: 'left' | append: ".html" }} item=education %}
+  <h3>{{ site.foreignlanguages_title | default: "Foreign Languages" }}</h3>
+  {% for foreignlanguages in site.data.foreignlanguages %}
+    {% include {{ foreignlanguages.layout | default: 'left' | append: ".html" }} item=foreignlanguages %}
   {% endfor %}
 </div>
