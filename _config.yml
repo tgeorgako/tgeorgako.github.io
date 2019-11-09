@@ -41,14 +41,14 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: Skills
 more_content: | # this will include new lines to allow paragraphs
-    ▪ Excellent use and support of operating systems, office applications and services (MS Windows, Linux, MacOS, MS Office).
-    ▪ Digital Marketing (Google Adwords, Business Facebook).
-    ▪ Excellent use and configuration of smartphone software iOS, Android, Windows Mobile.
-    ▪ Technical support for computers and mobile systems telephones, closed surveillance systems, telephony.
-    ▪ Programming knowledge (PHP, Javascipt, Java, Matlab).
-    ▪ Communication and teamwork skills
-    ▪ Website Design and Management (Plesk, Wordpress, HTML5, CSS, Javascript, MySQL)
-    ▪ Driving licence B
+    - Excellent use and support of operating systems, office applications and services (MS Windows, Linux, MacOS, MS Office).
+    - Digital Marketing (Google Adwords, Business Facebook).
+    - Excellent use and configuration of smartphone software iOS, Android, Windows Mobile.
+    - Technical support for computers and mobile systems telephones, closed surveillance systems, telephony.
+    - Programming knowledge (PHP, Javascipt, Java, Matlab).
+    - Communication and teamwork skills
+    - Website Design and Management (Plesk, Wordpress, HTML5, CSS, Javascript, MySQL)
+    - Driving licence B
 
 # Footer
 footer_show_references: true
