@@ -10,6 +10,8 @@ jobs:
     #  - run: ./PdfScript.sh # run the `script` command
       - run: make # run the `make` command
       - run: readlink -f resume.pdf
+      - run: git config user.email "georgakopo@ceid.upatras.gr"
+      - run: git config user.name "tgeorgako"
       - run: git status
       - run: git add resume.pdf #the file name you haven been changed
       - run: git status
