@@ -10,4 +10,5 @@ jobs:
     #  - run: ./PdfScript.sh # run the `script` command
       - run: make # run the `make` command
       - run: readlink -f resume.pdf
+      - run: git status
       - run: echo "Success!!!" # run the `echo` command
