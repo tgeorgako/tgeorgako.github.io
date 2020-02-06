@@ -10,6 +10,6 @@ workflows:
   welcome:
     # Run the welcome/run job in its own container
     jobs:
-      - cd ..
-      - pandoc -s _config.yml -o resume.pdf --template=eisvogel.tex --pdf-engine=xelatex
+      - pandoc https://stagohci.github.io/online-cv/ -f html-native_divs -o my_resume.pdf --pdf-engine=xelatex
+
       
