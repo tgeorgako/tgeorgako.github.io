@@ -18,6 +18,6 @@ jobs:
       - run: git status
       - run: git add resume.pdf #the file name you haven been changed
       - run: git status
-      - run: git commit -m 'PDF upload'
+      - run: git commit -m 'PDF upload [ci skip]'
       - run: git push origin master
       - run: echo "Success!!!" # run the `echo` command
