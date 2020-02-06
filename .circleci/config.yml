@@ -6,5 +6,5 @@ jobs:
     steps:
       - checkout # check out the code in the project directory
       - run: cd .. # run the `cd` command
-      - run: ./PdfScript.sh # run the `script` command
+      - run: pandoc -s _config.yml -o resume.pdf --template=eisvogel.tex --pdf-engine=xelatex # run the `pandoc` command
       - run: echo "hello world" # run the `echo` command
