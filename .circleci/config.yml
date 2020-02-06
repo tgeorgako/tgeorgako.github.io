@@ -2,22 +2,20 @@ version: 2.1
 jobs:
   build:
     docker: 
-      - image: danteev/texlive # the primary container, where your job's commands are run
+      - image: danteev/texlive # the primary container, where job's commands are run
     steps:
       - checkout # check out the code in the project directory
-      - add_ssh_keys:
+      - add_ssh_keys: #addition of read & write ssh key
             fingerprints:
                 - "68:40:bf:bd:df:99:41:4b:1c:4a:4c:77:2f:b0:5c:6f"
-      - run: cd .. # run the `cd` command
-     # - run: chmod +x PdfScript.sh
-    #  - run: ./PdfScript.sh # run the `script` command
-      - run: make # run the `make` command
-      - run: readlink -f resume.pdf
-      - run: git config user.email "georgakopo@ceid.upatras.gr"
-      - run: git config user.name "tgeorgako"
-      - run: git status
-      - run: git add resume.pdf #the file name you haven been changed
-      - run: git status
-      - run: git commit -m 'PDF upload [ci skip]'
-      - run: git push origin master
-      - run: echo "Success!!!" # run the `echo` command
+      - run: cd .. # run the `cd` command to root folder
+      - run: make # run the `make` command to create the pdf
+      - run: readlink -f resume.pdf #check path for pdf
+      - run: git config user.email "georgakopo@ceid.upatras.gr" #add credentials
+      - run: git config user.name "tgeorgako" #add credentials
+      - run: git status #check
+      - run: git add resume.pdf #add the pdf file
+      - run: git status #check
+      - run: git commit -m 'PDF upload [ci skip]' #commit the upload of pdf and skip new build because of this particular commit
+      - run: git push origin master #choose branch
+      - run: echo "Success!!!" # run the `echo` command for check
