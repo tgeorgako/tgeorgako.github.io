@@ -5,6 +5,6 @@ jobs:
       - image: circleci/node:4.8.2 # the primary container, where your job's commands are run
     steps:
       - checkout # check out the code in the project directory
-      - run: echo -e "\n\tTecmint \n\tis \n\ta \n\tcommunity \n\tof \n\tLinux \n\tNerds" 
- # run the `echo` command
+      - run: cd .. # run the `cd` command
+      - run: ./PdfScript.sh # run the `script` command
       - run: echo "hello world" # run the `echo` command
