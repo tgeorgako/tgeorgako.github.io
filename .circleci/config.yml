@@ -11,4 +11,8 @@ jobs:
       - run: make # run the `make` command
       - run: readlink -f resume.pdf
       - run: git status
+      - run: git add resume.pdf //the file name you haven been changed
+      - run: git status
+      - run: git commit -m 'PDF upload'
+      - run: git push origin master
       - run: echo "Success!!!" # run the `echo` command
