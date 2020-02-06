@@ -5,6 +5,9 @@ jobs:
       - image: danteev/texlive # the primary container, where your job's commands are run
     steps:
       - checkout # check out the code in the project directory
+      - add_ssh_keys:
+            fingerprints:
+                - "68:40:bf:bd:df:99:41:4b:1c:4a:4c:77:2f:b0:5c:6f"
       - run: cd .. # run the `cd` command
      # - run: chmod +x PdfScript.sh
     #  - run: ./PdfScript.sh # run the `script` command
