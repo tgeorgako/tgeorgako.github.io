@@ -38,6 +38,7 @@ about_content: | # this will include new lines to allow paragraphs
 
 # foreignlanguages Section
 # foreignlanguages_title: Foreign Languages
+foreignlanguages_content:
 - layout: left
   name: English
   qualification: Level C2
