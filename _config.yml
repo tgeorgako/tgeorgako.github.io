@@ -23,7 +23,7 @@ linkedin_username: theodoros-georgakopoulos
 
 # About Section
 # about_title: About Me
-about_profile_image: https://raw.githubusercontent.com/tgeorgako/tgeorgako.github.io/master/images/profile.jpg
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Theodoros Georgakopoulos and I am a computer engineer. I enjoy building and troubleshooting systems and creating applications. Throughout my career I have worked at many companies and institutions gaining teamwork and leadership skills.
 
