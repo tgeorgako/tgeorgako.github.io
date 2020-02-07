@@ -5,7 +5,7 @@
       <h2>{{ site.title | escape }}</h2>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
-      <ul class="icons no-print">
+      <span class="icons no-print">
         {%- if site.dribbble_username -%}
           <li>
             <a target="_blank" href="https://dribbble.com/{{ site.dribbble_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
@@ -28,11 +28,11 @@
           </li>
         {%- endif -%}
         {%- if site.github_username -%}
-          <li>
+          <span>
             <a target="_blank" href="https://github.com/{{ site.github_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
               <i class="fab fa-github" title="Github link"></i>
             </a>
-          </li>
+          </span>
         {%- endif -%}
         {%- if site.instagram_username -%}
           <li>
@@ -42,11 +42,11 @@
           </li>
         {%- endif -%}
         {%- if site.linkedin_username -%}
-        <li>
+        <span>
               <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
               <i class="fab fa-linkedin" title="Linkedin link"></i>
                   </a>
-            </li>
+            </span>
         {%- endif -%}
         {%- if site.xing_username -%}
           <li>
@@ -83,7 +83,7 @@
             </a>
           </li>
         {%- endif -%}
-      </ul>
+      </span>
 
       {%- if site.email -%}
         <p>
